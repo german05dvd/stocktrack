@@ -1,0 +1,27 @@
+{
+  "name": "stocktrack",
+  "private": true,
+  "homepage": "https://german05dvd.github.io/stocktrack/",
+  "version": "0.0.0",
+  "type": "module",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+  "dependencies": {
+    "lucide-react": "^0.x.x",
+    "react": "^19.x.x",
+    "react-dom": "^19.x.x",
+    "xlsx": "^0.x.x"
+  },
+  "devDependencies": {
+    "@types/react": "^19.x.x",
+    "@types/react-dom": "^19.x.x",
+    "@vitejs/plugin-react": "^6.x.x",
+    "gh-pages": "^6.3.0",
+    "vite": "^8.x.x"
+  }
+}
